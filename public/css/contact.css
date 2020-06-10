@@ -8,14 +8,8 @@
 	font-weight: 400;
 }
 
-.first,
-.second,
-.third {
-	font-size: large;
-}
-
 .second {
-	font-size: 25px;
+	font-size: 18px;
 }
 
 body {
