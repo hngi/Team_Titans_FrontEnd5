@@ -383,6 +383,16 @@ ul.social-footer2 li a {
 }
 
 @media all and (max-width: 750px) {
+	#landing-image{
+		margin-top: 0px;
+	}
+
+	#landing-page {
+		border-bottom-left-radius: 30%;
+		border-bottom-right-radius: 30%;
+		height: 70vh;
+	}
+	
 	#left-image1 {
 		width: 50%;
 		height: 50%;
