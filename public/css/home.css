@@ -19,7 +19,7 @@ body {
 	border-bottom-right-radius: 40%;
 	background-color: black;
 	color: white;
-	height: 90vh;
+	height: 70vh;
 	font-weight: bold;
 	letter-spacing: 1px;
 }
@@ -145,7 +145,7 @@ p,
 .row,
 #secondary-header,
 #advertisement {
-	margin-top: 100px;
+	margin-top: 80px;
 	padding-bottom: 10px;
 }
 
@@ -378,21 +378,30 @@ ul.social-footer2 li a {
 
 @media all and (max-width: 1080px) {
 	#landing-image-container {
-		opacity: 0;
+		opacity: 1;
+	}
+	#landing-image {
+		margin-top: 40px;
+		width: 70%;
+		height: 50%;
+		margin-left: 15%;
 	}
 }
 
 @media all and (max-width: 750px) {
-	#landing-image{
-		margin-top: 0px;
+	#landing-image {
+		margin-top: 40px;
+		width: 70%;
+		height: 50%;
+		margin-left: 15%;
 	}
 
 	#landing-page {
-		border-bottom-left-radius: 30%;
-		border-bottom-right-radius: 30%;
+		border-bottom-left-radius: 35%;
+		border-bottom-right-radius: 35%;
 		height: 70vh;
 	}
-	
+
 	#left-image1 {
 		width: 50%;
 		height: 50%;
