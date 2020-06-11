@@ -15,16 +15,17 @@ body {
 /* Landing Page */
 
 #landing-page {
-	border-bottom-left-radius: 40%;
-	border-bottom-right-radius: 40%;
+	border-bottom-left-radius: 45%;
+	border-bottom-right-radius: 45%;
 	background-color: black;
-	color: white;
-	height: 70vh;
+	color: #ffffff;
+	height: 45vw;
 	font-weight: bold;
 	letter-spacing: 1px;
 }
 
 #heading {
+	color: lightcoral;
 	margin-top: 7%;
 	text-align: center;
 	font-size: 5em;
@@ -43,12 +44,12 @@ body {
 }
 
 #booking-button {
-	margin-top: 20px;
+	margin-top: 10px;
+	margin-bottom: 30px;
 	text-align: center;
 }
 
 .btn {
-	margin-top: 5px;
 	color: black;
 	background-color: white;
 	font-weight: 500;
@@ -66,9 +67,9 @@ body {
 }
 
 #landing-image {
-	margin-top: 30px;
-	width: 620px;
-	height: 333px;
+	margin-top: 40px;
+	width: 600px;
+	height: 300px;
 	margin-left: 30%;
 }
 
@@ -98,6 +99,7 @@ ul {
 #secondary-content {
 	color: black;
 	margin-top: 200px;
+	margin-top: 30px;
 }
 
 #left-image2 {
@@ -116,8 +118,8 @@ ul {
 }
 
 #right-image1 {
-	padding-top: 20px;
-	width: 500px;
+	padding-right: 18px;
+	width: 480px;
 	height: 350px;
 }
 
@@ -381,19 +383,20 @@ ul.social-footer2 li a {
 		opacity: 1;
 	}
 	#landing-image {
-		margin-top: 40px;
-		width: 70%;
-		height: 50%;
-		margin-left: 15%;
+		margin-top: 20px;
+		width: 50%;
+		height: 40%;
+		margin-left: 25%;
 	}
 }
 
 @media all and (max-width: 750px) {
 	#landing-image {
 		margin-top: 40px;
-		width: 70%;
-		height: 50%;
-		margin-left: 15%;
+		width: 60%;
+		height: 40%;
+		margin-left: 22%;
+		margin-top: 30px;
 	}
 
 	#landing-page {
@@ -413,12 +416,21 @@ ul.social-footer2 li a {
 		opacity: 1;
 	}
 	#right-image1 {
+		margin-top: 20px;
 		width: 100%;
 		height: 50%;
 	}
 	#right-image2 {
 		width: 100%;
 		height: 50%;
+	}
+
+	.card-img-top {
+		margin-left: 0px;
+	}
+
+	#center {
+		padding-left: 30%;
 	}
 
 	#row {
